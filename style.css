@@ -1,0 +1,42 @@
+:root {
+    --warna:#0a15bb;
+    --bg: rgb(20, 20, 20);
+    --shadow:0 2px 2px rgb(0,0,0/0.5);
+}
+
+body {
+    font-size: 1.2rem;
+    font-family: 'work sans', sans-serif;
+}
+
+
+.hero {
+    min-height: 100vh;
+    background-color: var(--bg);
+}
+
+.hero h1 {
+    font-family: 'salsa', cursive;
+    font-size: 7rem;
+}
+
+.hero h4 {
+    font-size: 1.7rem;
+}
+
+.hero p {
+    font-size: 1.3rem;
+}
+
+.hero a {
+    color: var(--warna);
+    background-color: white;
+}
+
+.hero a:hover {
+    color: white;
+    background-color: var(--warna);
+}
+
+
+
